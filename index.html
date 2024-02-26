@@ -1,0 +1,208 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.PNG" type="image/png">
+    <title>Pradnya Dolthade's Portfolio website</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+   <!-- google fonts (poppins)-->
+   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;900&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+
+         <div class="container nav__container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/logo.PNG" alt="navbar logo">
+            </a>
+            <ul class="nav__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <!-- <li><a href="#skills">Skills</a></li> -->
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+           </ul>
+           <div class="nav__buttons">
+            <button class="nav__theme-btn"><i class="uil uil-moon"></i></button>
+            <button class="nav__toggle-open"><i class="uil uil-bars"></i></button>
+            <button class="nav__toggle-close"><i class="uil uil-multiply"></i></button>
+           </div>
+         </div>
+    </nav>
+   
+    <!-- END OF NAV -->
+
+   <header>
+   <div class="container header__container">
+     <article class="header__image" data-aos="fade-up" data-aos-delay="700">
+        <div><img src="./assets/header.jpg" alt="header image"></div>
+     </article>
+     <article class="header__content" data-aos="fade-in">
+     <h2>Hi, I'm <span>Pradnya Dolthade</span></h2>
+     <h3>and I am Python Web Development and Data Science Enthusiatic.</h4>
+        <p></p>
+      <div class="header__cta">
+        <a href="#contact" class="btn primary">Hire Me!</a>
+        <a href="#projects" class="btn">Portfolio</a>
+      </div>  
+    </article>
+     <ul class="header__socials">
+       <li><a href="https://www.linkedin.com/in/pradnya-dolthade/" target="_blank"><i class="uil uil-linkedin-alt"></i></a></li>
+       <li><a href="https://github.com/pradnyadolthade" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+       <li><a href="https://www.instagram.com/pradnyadolthade/" target="_blank"><i class="uil uil-instagram"></i></a></li>
+       <li><a href="https://www.credly.com/users/pradnya-dolthade.6ba5f027" target="_blank"><i class="uil uil-award-alt"></i></a></li>
+    </ul>
+   </div>
+   </header>
+
+
+<!-- END OF HEADER -->
+
+
+<section class="about" id="about">
+  <div class="container about__container">
+    <div class="about__image">
+        <img src="./assets/about.jpg" alt="About image">
+    </div>
+    <div class="about__details" data-aos="fade-up" data-aos-delay="300">
+        <h1>About me</h1>
+        <div class="about__cards">
+            <article class="about__card">
+                <i class="uil uil-laptop"></i>
+                <h4>Experience</h4>
+                <small>2 years</small>
+            </article>
+            <article class="about__card">
+                <i class="uil uil-layers"></i>
+                <h4>Education</h4>
+                <small>BE Computer</small>
+            </article>
+        </div>
+
+        <p>
+            My name is Pradnya Dolthade, i have done bachelor's in computed engineering from BVCOEW'21 
+        </p>
+        <p> 
+            I have 2 year Experience as software engineer at capgemini, supported kyc project as functional tester. I have always been interested in python hence seeking opportunities as dynamic professional transitioning to entry Level Python web development or Data analysis. Check out my resume below!
+        </p>
+          <a href="./assets/Pradnya Dolthade_Resume (1).pdf" class="btn primary" download target="_blank"><i class="uil uil-download-alt"></i> Download CV</a>
+    </div>
+  </div>
+</section>
+ <!-- END OF ABOUT -->
+   
+<section class="projects" id="projects">
+<h1>Recent Projects</h1>
+<p>personal projects</p>
+<ul class="projects__categories">
+  <li class="active" data-filter="*">All</li>
+  <li data-filter=".backend">Backend</li>
+  <li data-filter=".data">Data Science</li>
+  <li data-filter=".web">Django web development</li>
+  
+</ul>
+  <div class="container projects__container" data-aos="fade-in">
+        <article class="project mix backend" data-order="1">
+          <div class="projects__image">
+            <img src="./assets/1.png" alt="project 1">
+          </div>
+          <h3>To Do list(Python)</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reiciendis ipsa porro rem assumenda ab
+            consequatur officiis, impedit sint tempora? Quas hic sapiente a eaque molestiae voluptatibus animi incidunt soluta.
+          </p>
+          <div class="project__cta">
+            <a href="https://github.com/pradnyadolthade/To-Do-list" class="btn sm primary" target="_blank">Demo</a>
+            <a href="https://github.com/pradnyadolthade/To-Do-list" class="btn sm" target="_blank">Github</a>
+          </div>
+        </article>
+        <article class="project mix data" data-order="2">
+          <div class="projects__image">
+            <img src="./assets/3.png" alt="pdf generator">
+          </div>
+          <h3>Pdf Generator(Python)</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reiciendis ipsa porro rem assumenda ab
+            consequatur officiis, impedit sint tempora? Quas hic sapiente a eaque molestiae voluptatibus animi incidunt soluta.
+          </p>
+          <div class="project__cta">
+            <a href="https://github.com/pradnyadolthade/pdf-generator" class="btn sm primary" target="_blank">Demo</a>
+            <a href="https://github.com/pradnyadolthade/pdf-generator" class="btn sm" target="_blank">Github</a>
+          </div>
+        </article>
+        <article class="project mix web" data-order="3">
+          <div class="projects__image">
+            <img src="./assets/2.png" alt="turtle car crossing">
+          </div>
+          <h3>turtle car crossing(Python)</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur reiciendis ipsa porro rem assumenda ab
+            consequatur officiis, impedit sint tempora? Quas hic sapiente a eaque molestiae voluptatibus animi incidunt soluta.
+          </p>
+          <div class="project__cta">
+            <a href="https://github.com/pradnyadolthade/turtle_car_crossing_game" class="btn sm primary" target="_blank">Demo</a>
+            <a href="https://github.com/pradnyadolthade/turtle_car_crossing_game" class="btn sm" target="_blank">Github</a>
+          </div>
+        </article>
+  </div>
+  </section>
+
+<!-- END OF PROJECTS -->
+
+<section class="contact" id="contact">
+  <div class="container contact__container">
+    <ul class="contact__list">
+      <li data-aos="fade-in"><a href="mailto:pradnyadolthade236@gmail.com" class="contact__list-item" target="_blank"><i
+            class="uil uil-envelope"></i></a></li>
+      <li data-aos="fade-in" data-aos-delay="150"><a href="https://www.messenger.com/t/pradnya.dolthade.1" class="contact__list-item" target="_blank"><i
+            class="uil uil-facebook-messenger-alt"></i></a></li>
+      <li data-aos="fade-in" data-aos-delay="300"><a href="https://wa.me/+918698012946" class="contact__list-item" target="_blank"><i
+            class="uil uil-whatsapp"></i></a></li>
+      <li data-aos="fade-in" data-aos-delay="450"><a href="mob:+918698012946" class="contact__list-item" target="_blank"><i class="uil uil-phone-alt"></i></a>
+      </li>
+    </ul>
+    <form action="https://formsubmit.co/5cea1f50e0b379d9b6f72eef2bcd0c53" method="POST" class="contact__form" data-aos="fade-up" data-aos-delay="600">
+      <input type="text" name="name" placeholder="Full Name">
+      <input type="email" name="Email" placeholder="Email Address">
+      <textarea rows="7" name="message" placeholder="Message"></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </div>
+
+</section>
+
+
+<!-- END OF CONTACT -->
+
+
+
+<footer>
+  <div class="container footer__container">
+    <ul class="footer__menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <ul class="footer__socials">
+      <li><a href="https://www.linkedin.com/in/pradnya-dolthade/" target="_blank"><i
+            class="uil uil-linkedin-alt"></i></a></li>
+      <li><a href="https://github.com/pradnyadolthade" target="_blank"><i class="uil uil-github-alt"></i></a></li>
+      <li><a href="https://www.instagram.com/pradnyadolthade/" target="_blank"><i class="uil uil-instagram"></i></a>
+      </li>
+      <li><a href="https://www.credly.com/users/pradnya-dolthade.6ba5f027" target="_blank"><i
+            class="uil uil-award-alt"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer__copyright">
+    <small>Pradnya Dolthade &copy; All Rights Reserved.</small>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration:1500, offset:false});
+</script>
+  <script src="./mixitup/mix/dist/mixitup.min.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
